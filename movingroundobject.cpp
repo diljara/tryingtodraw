@@ -18,7 +18,7 @@ int main()
     bool drag = false;
     sf::Vector2f click_offs;
 
-    //открытие окна и обработка событий, в том числе закрытие окна
+    //drawing and handling events
     while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
